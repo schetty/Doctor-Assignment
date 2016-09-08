@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Doctor;
 
 @interface Patient : NSObject
 
@@ -19,6 +20,8 @@
 @property BOOL hasInsurance;
 
 - (instancetype)initWithName:(NSString *)name age:(int)age hasInsurance:(BOOL)insurance andSymptoms:(NSMutableArray *)symptoms;
+
+- (void) requestMedicine:(Doctor *)doctor;
 
 
 @end

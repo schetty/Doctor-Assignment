@@ -16,8 +16,21 @@
     if (self) {
         _name = name;
         _practice = practice;
+        
+        NSMutableArray *acceptedPatients = [[NSMutableArray alloc]init];
     }
     return self;
 }
 
+-(void)acceptPatient:(Patient *)patient {
+    if (patient.hasInsurance) {
+        [self acceptPatient:(patient)];
+        [self.acceptedPatients addObject:patient];
+    }
+    
+    else {
+        NSLog(@"HealthCard Needed to visit Doctor");
+    
+    }
+}
 @end

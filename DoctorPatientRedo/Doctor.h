@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Patient.h"
 
 @interface Doctor : NSObject
 
@@ -14,9 +15,13 @@
 
 @property (nonatomic, strong) NSString * practice;
 
+@property (nonatomic, strong) NSMutableArray * acceptedPatients;
 
-- (instancetype)initWithName:(NSString *)name andPractice:(NSString *)practice;
+//@property (nonatomic, strong) Patient * patient;
 
-- (void)diagnosis;
+
+-(instancetype)initWithName:(NSString *)name andPractice:(NSString *)practice;
+
+-(void)acceptPatient:(Patient *)patient;
 
 @end

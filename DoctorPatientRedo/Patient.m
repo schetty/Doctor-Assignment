@@ -8,6 +8,7 @@
 
 #import "Patient.h"
 
+
 @implementation Patient
 
 - (instancetype)initWithName:(NSString *)name age:(int)age hasInsurance:(BOOL)insurance andSymptoms:(NSMutableArray *)symptoms
@@ -21,5 +22,12 @@
     }
     return self;
 }
+
+- (void)requestMedicine:(Doctor *)doctor {
+    if ([]) {
+        <#statements#>
+    }
+}
+
 
 @end
