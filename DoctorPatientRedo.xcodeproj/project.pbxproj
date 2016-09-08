@@ -11,7 +11,6 @@
 		39D0E28A1D81E7C800E62938 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E2891D81E7C800E62938 /* Doctor.m */; };
 		39D0E28D1D81E7D100E62938 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E28C1D81E7D100E62938 /* Patient.m */; };
 		39D0E2901D82009800E62938 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E28F1D82009800E62938 /* Prescription.m */; };
-		39D0E2931D82011200E62938 /* PrescriptionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E2921D82011200E62938 /* PrescriptionList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +34,6 @@
 		39D0E28C1D81E7D100E62938 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		39D0E28E1D82009800E62938 /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
 		39D0E28F1D82009800E62938 /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
-		39D0E2911D82011200E62938 /* PrescriptionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionList.h; sourceTree = "<group>"; };
-		39D0E2921D82011200E62938 /* PrescriptionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +69,6 @@
 				39D0E2811D81E63C00E62938 /* main.m */,
 				39D0E28E1D82009800E62938 /* Prescription.h */,
 				39D0E28F1D82009800E62938 /* Prescription.m */,
-				39D0E2911D82011200E62938 /* PrescriptionList.h */,
-				39D0E2921D82011200E62938 /* PrescriptionList.m */,
 				39D0E2881D81E7C800E62938 /* Doctor.h */,
 				39D0E2891D81E7C800E62938 /* Doctor.m */,
 				39D0E28B1D81E7D100E62938 /* Patient.h */,
@@ -138,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D0E2931D82011200E62938 /* PrescriptionList.m in Sources */,
 				39D0E28D1D81E7D100E62938 /* Patient.m in Sources */,
 				39D0E28A1D81E7C800E62938 /* Doctor.m in Sources */,
 				39D0E2821D81E63C00E62938 /* main.m in Sources */,

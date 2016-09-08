@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Patient.h"
 #import "Doctor.h"
+#import "Prescription.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -35,6 +36,16 @@ int main(int argc, const char * argv[]) {
         [thirdPatient setAge:14];
         [thirdPatient setHasInsurance:YES];
         thirdPatient.symptoms = [NSMutableArray arrayWithObjects: @"metallic mucus", @"headaches", @"bloating", nil];
+        
+        
+        
+        
+        NSArray *listOfPatients = @[firstPatient, secondPatient, thirdPatient];
+        
+        
+        for (Patient *patient in listOfPatients) {
+            [theDoctor acceptPatient:patient];
+        }
         
     }
     return 0;

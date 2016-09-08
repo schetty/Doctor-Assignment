@@ -10,6 +10,18 @@
 
 @implementation Prescription
 
+- (instancetype)initWith
+{
+    self = [super init];
+    if (self) {
+        
+        NSArray* listOfPrescriptions = [[NSArray alloc]init];
+        listOfPrescriptions = @[@"paromomycin", @"cypro", @"tinidazole"];
+    }
+    return self;
+}
+
+
 
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "Patient.h"
+#import "Doctor.h"
 
 
 @implementation Patient
@@ -24,8 +25,11 @@
 }
 
 - (void)requestMedicine:(Doctor *)doctor {
-    if ([]) {
-        <#statements#>
+    if ([doctor.acceptedPatients containsObject:self.name]) {
+        NSLog(@"ok, you can have some medicine");
+    }
+    else {
+        NSLog(@"sorry, you are not on Doctor's accepted patient's List");
     }
 }
 
